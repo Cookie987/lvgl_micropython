@@ -21,7 +21,7 @@ class FT6x36(focaltech_touch.FocalTechTouch):
         self,
         device,
         touch_cal=None,
-        startup_rotation=pointer_framework.lv.DISPLAY_ROTATION._0,  # NOQA
+        startup_rotation=pointer_framework.lv.DISPLAY_ROTATION._180,  # NOQA
         debug=False
     ):  # NOQA
 
